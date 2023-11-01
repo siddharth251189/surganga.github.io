@@ -1,0 +1,475 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vivek Memorial Sur Ganga Sangeet Vidhyalaya </title>
+  <link href="css/all.css" rel="stylesheet" media="screen">
+  <!-- Owl Stylesheets -->
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.css">
+  <link rel="icon" href="images/favicon.png">
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/owl.carousel.js"></script>
+  <style type="text/css">
+    .modal-body{padding: 0;}
+    .close{opacity: 0.9; position: absolute; top: 10px; right: 10px;}
+  </style>
+  <script type="text/javascript">
+    function centerModal() {
+      $(this).css('display', 'block');
+      var $dialog = $(this).find(".modal-dialog");
+      var offset = ($(window).height() - $dialog.height()) / 2;
+      // Center modal vertically in window
+      $dialog.css("margin-top", offset);
+    }
+
+    $('.modal').load('show.bs.modal', centerModal);
+    $(window).load("resize", function () {
+        $('.modal:visible').each(centerModal);
+    });
+  </script>
+</head>
+<body>
+  <header class="main-header">
+	<div class="header-top">
+		<div class="container">
+			<div class="row">
+				<div class="menu-top-menu-container">
+					<div class="col-lg-6 col-md-6 col-sm-6 "></div>
+					<div class="col-lg-6 col-md-6 col-sm-6 ">
+						<ul>
+							<li class="theme-swither">
+								<input class="light" type="button" value="A">
+								<input class="dark" type="button" value="A">
+								
+							</li>
+							<li class="theme-swither">
+								<input type="button" value="A+">
+								<input type="button" value="A-">
+								<input type="button" value="A">
+							</li>
+							
+						</ul>
+					</div>
+				</div>       
+			</div>
+		</div>
+	</div>
+	<div class="header-bottom">
+		<div class="container">
+			<div class="col-lg-4 col-md-4 col-sm-4 ">
+			    <div class="logo">
+					<img id="site-logo" src="images/logo.png" alt="music" style="max-width:100%; height:auto;">			
+			    </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4" style="float: right;">
+			    <div class="logo">
+					<img id="site-logo" src="images/100 years.jpeg" alt="music" style="max-width:40%; height:auto; float: right;">			
+			    </div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 "></div>
+		  	<!-- <div class="col-lg-4 col-md-4 col-sm-4 ">
+			    <div class="header-search">
+			      <input placeholder="Search" type="text">
+			      <button class="search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+			    </div>
+		  	</div> -->
+		</div>
+	</div>
+</header>
+
+
+<div class="menu-wrap">
+	<div class="desktop-menu hidden-xs">
+		<div class="container">
+			<ul id="menu-main-menu" class="menu-main">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html">About</a></li>
+				<li><a href="#">Dropdown Menu</a>
+					<ul class="sub-menu">
+						<li><a href="professor/professor.php">Professor</a></li>
+						<li><a href="#">Associate Professor</a></li>
+						<li><a href="assistantprofessor/assistantprofessor.php">Assistant Professor</a></li>
+						<li><a href="guestlecturer/guestlecturer.php">Guest Lecturer</a></li>
+                        <li><a href="staffartist/saindex.php">Staff Artist</a></li>
+                        <li><a href="javascript:void(0)"> Instructors </a></li>
+                        <li><a href="javascript:void(0)"> Teachers - Short Term Courses  </a></li>
+					</ul>
+				</li>
+				
+				
+				<!-- <li><a href="professor/rprofessor.php">Retd.Professor</a></li> -->
+				
+				
+			</ul>
+		</div>
+	</div>
+	<div class="mobile-menu-area visible-xs">
+	    <div class="container">
+	    	<div class="row">
+	        	<div class="col-md-12">
+	        		<div class="mobile-menu">
+	            		<nav id="dropdown" style="display: block;">
+	               			<ul id="menu-main-menu-1" class="menu">
+				   				<li><a href="index.php">Home</a></li>
+                				<li><a href="about.php">Department</a></li>
+                				<li><a href="#">Faculty</a>
+                					<ul class="sub-menu">
+                						<li><a href="professor/professor.php">Professor</a></li>
+                						<li><a href="#">Associate Professor</a></li>
+                						<li><a href="assistantprofessor/assistantprofessor.php">Assistant Professor</a></li>
+                						<li><a href="guestlecturer/guestlecturer.php">Guest Lecturer</a></li>
+                                        <li><a href="staffartist/saindex.php">Staff Artist</a></li>
+                                        <li><a href="javascript:void(0)"> Instructors </a></li>
+                                        <li><a href="javascript:void(0)"> Teachers - Short Term Courses  </a></li>
+                					</ul>
+                				</li>
+								<li><a href="#">Courses</a>
+                					<ul class="sub-menu">
+                						<li><a href="javascript:void(0)">Degree Programmes</a>
+                  						  <ul class="sub-menu">
+                	  						<li><a href="admission/b-a-music.php">B.A.(Hons.) Music</a></li>
+                							<li><a href="admission/m-a-music.php">M.A. Music</a></li>
+                							<li><a href="admission/m-phil-music.php">M.Phil Music</a></li>
+                							<li><a href="admission/ph-d-programme.php">Ph.D Programme</a></li>
+                  						  </ul>		
+                						</li>
+                						<li><a href="javascript:void(0)">Diploma Courses </a>
+                  						  <ul class="sub-menu">
+                	  						<li><a href="admission/sangeet-shiromani.php">Sangeet Shiromani Diploma Course</a></li>
+                	  							<li><a href="admission/two-year-diploma-in-harmonium.php">Two Year Diploma in Harmonium</a></li>
+                  						  </ul>		
+                						</li>
+                						<li><a href="javascript:void(0)">Certificate Courses</a>
+                  						  <ul class="sub-menu">
+                	  					
+                					    	<li><a href="admission/certificate-course.php">One Year Certificate Course for Foreign Nationals</a></li>
+                					    		<li><a href="admission/short-term-courses.php">Short Term Certificate Courses (4 months)</a></li>
+                						  <li><a href="admission/advance-courses.php"> Short Term Advance Courses (6 months)</a></li>
+                					    	
+                  						  </ul>		
+                						</li>
+                					</ul>
+                				</li>
+                				<li><a href="library/libindex.php">Library</a>
+                					<ul>
+                						<li><a href="library/book-section.php">Book Section</a></li>
+                						<li><a href="library/research-section.php">Research Section</a></li>
+                						<li><a href="library/library-staff.php">Library Staff</a></li>
+                						<li><a href="museum/museum.php">Museum</a></li>
+                					</ul>
+                				</li>
+								<!-- <li><a href="#">Results</a>
+									<ul class="sub-menu">
+										<li><a href="professor/professor.php">Professor</a></li>
+										<li><a href="#">Associate Professor</a></li>
+										<li><a href="assistantprofessor/assistantprofessor.php">Assistant Professor</a></li>
+									</ul>
+								</li> -->
+								<!-- <li><a href="professor/rprofessor.php">Retd.Professor</a></li> -->
+								<li><a href="#">Gallery</a>
+                					<ul class="sub-menu">
+                						<li><a href="gallery/independence_day_2019.php">Independence Day 2019</a></li>
+                						<li><a href="gallery/ambedkar-jayanti.php">Ambedkar Jayanti</a></li>
+                						<li><a href="gallery/basant-utsav-2019.php">Department's Glimpse 2019</a></li>
+                						<li><a href="gallery/basant-utsav.php">Department's Glimpse 2016</a></li>
+                						<li><a href="gallery/basant-panchmi-2011-and-2013.php">Basant Panchmi 2011 and 2013</a></li>
+                						<li><a href="gallery/malhar.php">Malhar</a></li>
+                						<li><a href="gallery/seminar2017.php">Seminar 2017</a></li>
+                						<li><a href="gallery/seminar2016.php">Seminar 2016</a></li>
+                						<li><a href="gallery/seminar2012.php">Seminar 2012</a></li>
+                						<li><a href="gallery/seminar2011.php">Seminar 2011</a></li>
+                					</ul>
+                				</li>
+                				<li><a href="scholarship/scholarship.php">Scholarships</a></li>
+								<!-- <li><a href="old-notice.php">Old Notices</a></li> -->
+								<li><a href="https://ejournal.music.du.ac.in">Journal</a></li>
+                				<li><a href="E-Resource.php">E-Resource</a></li>
+                				<li><a href="#">NAAC</a>
+                					<ul class="sub-menu">
+                						<li><a href="pdf/2022/Best Practices.pdf">Best Practices</a></li>
+                						<li><a href="pdf/2022/Brochure.pdf">Brochure</a></li>
+                					</ul>
+                				</li>
+							</ul>
+						</nav>
+	          		</div>
+	        	</div>
+	      	</div>
+	    </div>
+	</div>
+</div>   <!--<div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-body">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <div class="alert alert-warning" style="margin-bottom: 0px;">
+            <h4> <strong>For general queries please contact, Sh. Amardeep Kachhap, Section Officer on -</strong></h4>
+              <h5>O11 27667608</h5>
+              <h5>+91 82878 00281</h5>
+              <h5>+91 96509 29013</h5>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  <div class="slider">
+    <div class="owl-carousel owl-theme">
+      <div class="item">
+        <img src="images/slider01.jpg">
+      </div>
+      <div class="item">
+        <img src="images/slider02.jpg">
+      </div>
+      <div class="item">
+        <img src="images/slider03.jpg">
+      </div>
+      <div class="item">
+        <img src="images/slider04.jpg">
+      </div>
+      
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="time-table col-md-12">
+      <marquee scrollamount="10" onmouseover="stop()" onmouseout="start()">
+		  <!-- <p><a target="_blank" href="https://youtu.be/2pe3HwFY0Hg">National Anthem by Students of Music Department</a></p>
+        <p><a target="_blank" href="E-Resource.php">E-Resource</a></p>
+      <p><a target="_blank" href="pdf/2019/sangeet_natak.pdf">National Seminar 2019</a></p> -->
+      </marquee>
+    </div>
+  </div> 
+  <div class="home-content">
+    <section class="info-holder">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 col-md-4 col-sm-4">
+            <div class="about box">
+              <div class="about-massage">
+                <h1 class="section-title-block">About the Vidyalaya</h1>
+                <p>This institution is an inspiration of a beloved departed soul whose 
+					memory is still fresh in our hearts. Vivek Memorial Sur Ganga Sangeet
+					Vidyalya is an institute situated in the ancient and holy landscape 
+					adjacent to ever flowing river the BHAGIRATHI, ...</p><a class="read-more-btn" href="about.php" rel="bookmark" title="Permanent Link to home">Read More</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8">
+            <div class="dean-mas box clearfix">
+              <div class="col-lg-4 col-md-4 padding-0">
+                <div class="dean-img"><img class="img-responsive" src="images/team-vikas.jpg" /></div>
+              </div>
+              <div class="col-lg-8 col-md-8">
+                <div class="dean-massage">
+                  <h6 class="section-title-block">Message from Director’s Desk </h6>
+                  <p>It is ecstasy to let the music aspirants and music lover of the Uttrakhand to know that by God’s grace, my effort along with all the family and well wishers is taking shape in terms of the institution that is before you. My personal experience as disciple of music has been uphill due to the complete lack of musical environment around me. Henceforth, the ,  ...</p><a class="read-more-btn" href="message-from-dean.php" rel="bookmark"
+                  title="Permanent Link to home">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+	<section class="course-list">
+		
+		
+		<div class="container">
+		<h4 class="section-subtitle">Our Courses</h4>
+		<h1 class="section-title">Explore Courses By Category</h1>
+			<div class="">
+				
+					<ul>
+						<li>
+							<a href="#">
+								<span class="course-name">
+									Vocal
+								</span>
+								<img src="images/vocal.png" alt="" class="course-img">
+							</a>
+							
+						</li>
+						<li>
+							<a href="#">
+								<span class="course-name">
+									Dance
+								</span>
+								<img src="images/vocal.png" alt="" class="course-img">
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<span class="course-name">
+									Instrumental
+								</span>
+								<img src="images/vocal.png" alt="" class="course-img">
+							</a>
+						</li>
+					</ul>
+					
+				
+			  </div>
+		  </div>
+	</section>
+	
+	
+
+    <section class="news-holder">
+      <div class="container">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="courses-holder">
+            <h6>Courses</h6>
+            <ul class="home-courses">
+    	        <li><a target="_blank" href="admission/b-a-music.php">B.A.(Hons.) Music</a></li>
+      				<li><a target="_blank" href="admission/m-a-music.php">M.A. Music</a></li>
+      				
+    		    </ul>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="notice-holder">
+            <div class="row">
+              <div class="col-xs-12">
+                <div class="notice-holder">
+                  <h6>Press Release</h6>
+                  <ul class="home-courses">
+                    <li><a target="_blank" href="pdf/2023/2nd merit for pg.pdf">Second Merit List of the selected Candidates for M.A. Hindustani Music</a></li>
+                 </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="events-holder">
+            <h6>Upcoming Events</h6>
+            <div class="owl-carousel owl-theme">
+			  <div class="item">
+				<img class="img-responsive" src="images/upcoming-events/event-1.jpg" />
+              </div>
+			
+            </div> 
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+<footer class="site-footer">
+ <div class="container">
+ <div class="fooer-left">
+Copyright &copy;  2013-2022</div>
+<div class="fooer-right">
+
+
+</div>
+ </div>
+
+</footer>
+<script type="text/javascript" src="../js/jquery-2.2.4.js"></script>
+<script type="text/javascript" src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/jquery.magnific-popup.min.js"></script>
+<script type="text/javascript" src="../js/jquery.meanmenu.js"></script>
+<script type="text/javascript" src="../js/jquery.bootstrap.newsbox.min.js"></script>
+<script type="text/javascript" src="../js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../js/jquery.responsiveTabs.min.js"></script>
+<script type="text/javascript" src="../js/theme.js"></script>
+<script type="text/javascript">
+        $(document).ready(function () {
+			
+			$('#myModal').modal()  ;
+			
+$('.with-caption').magnificPopup({
+		type: 'image',
+		closeBtnInside: false,
+		mainClass: 'mfp-with-zoom mfp-img-mobile',
+  
+		image: {
+			verticalFit: true,
+			titleSrc: function(item) {
+        
+        var caption = item.el.attr('title');
+        
+       
+        
+      
+			}
+		},
+  
+  
+    gallery: {
+      enabled: true 
+    }, 
+  
+  
+  
+    callbacks: {
+      open: function() {
+        this.wrap.on('click.pinhandler', '.pin-it', function(e) {
+          
+          // This part of code doesn't work on CodePen, as it blocks window.open
+          // Uncomment it on your production site, it opens a window via JavaScript, instead of new page
+          /*window.open(e.currentTarget.href, "intent", "scrollbars=yes,resizable=yes,toolbar=no,location=yes,width=550,height=420,left=" + (window.screen ? Math.round(screen.width / 2 - 275) : 50) + ",top=" + 100);
+
+          
+          return false;*/
+        });
+      },
+      beforeClose: function() {
+       //this.wrap.off('click.pinhandler');
+      }
+    }
+  
+	});
+
+
+
+		var $tabs = $('#horizontalTab');
+            $tabs.responsiveTabs({
+                rotate: false,
+                startCollapsed: 'accordion',
+                collapsible: 'accordion',
+                setHash: true,
+                //disabled: [3,4],
+                activate: function(e, tab) {
+                    $('.info').html('Tab <strong>' + tab.id + '</strong> activated!');
+                },
+                activateState: function(e, state) {
+                    //console.log(state);
+                    $('.info').html('Switched from <strong>' + state.oldState + '</strong> state to <strong>' + state.newState + '</strong> state!');
+                }
+            });
+
+           
+
+        });
+    </script>
+</body><script>
+    $(document).ready(function() {
+      var owl = $('.owl-carousel');
+      owl.owlCarousel({
+        margin: 10,
+        nav: false,
+		
+        loop: true,
+		 autoHeight:true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 1
+          },
+          1000: {
+            items: 1
+          }
+        }
+      });
+		
+    })
+</script>
+</body>
+</html>
